@@ -9,5 +9,79 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     --cor-highlight-clicavel:#A64949;
     --cor-texto-padrao:#000;
     --cor-background-padrao:#FFF;
+    --cor-background-section:#F2D49B;
+    --cor-hover:#592525;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: auto  !important;
+  }
+
+  *:focus{
+	outline: none;
+}
+  body {
+    overflow-x: hidden;
+    background-color:var(--cor-background-padrao);
+    font-family: 'Jura', sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  header, footer {
+    width: 100%;
+    background-color:var(--cor-header-footer);
+  }
+
+  header .container-header, footer .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .container-header a{
+    text-decoration: none;
+  }
+
+  header .container-header a .titulo-site{
+    color:var(--cor-highlight-marrom);
+    font-size:40px;
+  }
+
+  header .container-header .nav-list{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 20;
+    margin: 0 !important;
+  }
+
+  header .container-header .nav-list .item a{
+    text-decoration: none;
+    color:var(--cor-navbar);
+  }
+  
+  
+  header .container-header .nav-list .item a:hover{
+    color:var(--cor-hover)
+  }
+
+  header .container-header .nav-list .item .active{
+    color:var(--cor-highlight-marrom)
+  }
+
+  footer{
+    text-align: center;
+    font-size:20px;
+    color:var(--cor-highlight-marrom);
+  }
+
+
+  
+
 
