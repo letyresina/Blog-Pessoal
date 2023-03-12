@@ -36,6 +36,10 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     width: 100%;
     background-color:var(--cor-header-footer);
   }
+  
+  header{
+    padding:2px;
+  }
 
   header .container-header, footer .container-header {
     display: flex;
@@ -50,6 +54,7 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
   header .container-header a .titulo-site{
     color:var(--cor-highlight-marrom);
     font-size:40px;
+    padding:4px;
   }
 
   header .container-header .nav-list{
@@ -75,10 +80,33 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     color:var(--cor-highlight-marrom)
   }
 
-  footer{
-    text-align: center;
-    font-size:20px;
-    color:var(--cor-highlight-marrom);
+  footer .container-footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  footer .container-footer .copyright{
+        text-align:center;
+        color:var(--cor-highlight-marrom);
+        font-size:25px;
+  }
+
+  .content{
+    background-color: var(--cor-background-section);
+    height:500px auto;
+    width:1200px;
+    padding:20px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom:10px;
+    margin-top:10px;
+    display:flex;
+  }
+
+  .content .imagem img{
+    align-items: right;
+    height:450px;
+    width:300px;
   }
 
 
