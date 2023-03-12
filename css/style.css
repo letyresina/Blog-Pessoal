@@ -5,6 +5,9 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     /*Cores utilizadas no site para facilitar*/ 
     --cor-header-footer:#F2A999;
     --cor-highlight-marrom:#261F1D;
+    --cor-navbar:#403730;
     --cor-highlight-clicavel:#A64949;
     --cor-texto-padrao:#000;
+    --cor-background-padrao:#FFF;
 }
+
