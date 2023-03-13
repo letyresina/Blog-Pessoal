@@ -129,16 +129,23 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     text-align: justify;
     font-size:20px;
   }
+  
+  .texto{
+    width:auto;
+    height:auto;
+  }
 
   .imagens{
     align-items:center;
     padding:30px;
+    
   }
   .coluna {
     list-style: none;
+    align-content: right;;
     display:flex;
-    justify-content: space-between;
- 
+    justify-content: space-around;
+    padding-right: 60px;
   }
 
 
