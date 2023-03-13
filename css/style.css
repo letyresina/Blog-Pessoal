@@ -148,5 +148,27 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
     padding-right: 60px;
   }
 
+  .texto-saibamais{
+    height:auto;
+    width:400px;
+    margin:2px;
+    padding:2px;
+    text-align:justify;
+  }
+
+  .texto-saibamais .frase-inicial-final{
+    text-align: center;
+    font-weight: normal;
+    color:var(--cor-texto-padrao);
+    font-size:26px;
+  }
+
+  .texto-saibamais .frase-inicial-final .link-site{
+    text-decoration: none;
+    color:var(--cor-highlight-clicavel);
+  }
+
+
+
 
   
