@@ -83,6 +83,7 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
   footer .container-footer {
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-top:auto;
   }
 
   footer .container-footer .copyright{
@@ -92,7 +93,7 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
   }
 
   .content{
-    background-color: var(--cor-background-section);
+    /*background-color: var(--cor-background-section); */
     height:auto;
     width:auto;
     padding:20px;
@@ -127,6 +128,17 @@ url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
   .content .texto .texto-geral{
     text-align: justify;
     font-size:20px;
+  }
+
+  .imagens{
+    align-items:center;
+    padding:30px;
+  }
+  .coluna {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+ 
   }
 
 
